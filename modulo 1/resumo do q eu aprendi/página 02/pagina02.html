@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(163, 143, 184);
+        }
+    </style>
+    <title>página 2</title>
+</head>
+<body>
+    <h1>Página 2</h1>
+    Voltar para a <a href="../index.html">Primeira Página</a>
+    <h2>Fotos em diferentes dispositivos</h2>
+    <p>Comando utilizado</p>
+    <pre>
+picture
+    source media="(max-width: 750px)" srcset="../img/foto-p.png" type="image/png"
+    
+    source media="(max-width: 1050px)" srcset="../img/foto-m.png" type="image/png"
+    
+    img src="../img/foto-g.png" alt="Imagem Flexível">
+picture
+    </pre>
+    <ol>
+        <li>Foto P</li>
+            <ul>
+                <li>Celular</li>
+            </ul>
+        <li>Foto M</li>
+            <ul>
+                <li>Tablet</li>
+            </ul>
+            <li>Foto G</li>
+            <ul>
+                <li>Computadores</li>
+            </ul>
+    </ol>
+    <picture>
+        <source media="(max-width: 750px)" srcset="../img/foto-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="../img/foto-m.png" type="image/png">
+        
+        <img src="../img/foto-g.png" alt="Imagem Flexível">
+    </picture>
+    <h2>Baixando Arquivos</h2>
+    <p>Donwloads</p>
+    <p>utilizando os comandos abaixo é possivel  colocar conteúdo para  baixar no site</p>
+    <ul style="color: blueviolet;">
+        <li><a href="../midia/10 - Ligações em toda parte.pdf" download="application/pdf">Baixar PDF sem compactação</a></li>
+        <li><a href="../midia/10 - Ligações em toda parte.rar" download="application/.rar">Baixar compactado em .rar</a></li>
+    </ul>
+    Clique aqui para ir para a <a href="">Próxma página</a>
+</body>
+</html>

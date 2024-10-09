@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h2>Deseja escutar uma música?</h2>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/Matuê - 1993.mp3" type="audio/mpeg">
+        <source src="midia/Matuê - 1993.mp3" type="audio/ogg">
+        <source src="midia/Matuê - 1993.mp3" type="audio/wav">
+        <p>Seu navegador não está aparecendo o player de música, <a href="midia/Matuê - 1993.mp3">clique aqui para baixar a música</a> </p>
+        </audio>
+        <audio preloud="metadata"controls autoplay>
+            <source src="midia/Matuê - 1993.mp3" type="audio/mp3">
+        </audio>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" 
+        srcset="img/foto-m.png" type="image/png">
+
+        <img src="img/foto-g.png" alt="Imagem flexível">
+    </picture>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/*
+    ID no HTML é = # no CSS
+    exemplo: h1#primeiro
+    em HTML, class = CSS é .
+*/
+body {
+    background-color: #A0FAA6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1 {
+    color: #345136;
+}
+h1#primeiro {
+    background-color: #507756;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    padding: 2%;
+    border-radius: 80px 80px 80px;
+    color: #9AE5A7;
+    
+}
+h2 {
+    color: #436946;
+}
+vermelho {
+    color: red;
+}
+azul {
+    color: blue;
+}
+h1.aprendendo {
+    color: #185155;
+}
+h2.basico {
+    color: black;
+    font-weight: bold;
+}
+h2.intermediario {
+    color: black;
+    font-weight: bold;
+}
+h2.avançado {
+    color: black;
+    /* font-weight: bold;: */
+
+}

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    text-align: justify;
+}
+header {
+    background-color: rgb(40, 161, 109);
+    height: 300px;
+    margin: -22px -9px 0px -8px;
+    color: white;
+    
+}
+#cabeçarioh1 {
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 43px;
+}
+#cabeçarioh2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 59px;
+}
+main {
+    width: 850px;
+    height: 3002px;
+    background-color: white;
+    margin: 30px auto 90px auto;
+    padding: 10px;
+}
+section.assuntos1 > h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(22, 71, 50);
+    font-weight: bold;
+    font-size: 44px;
+    
+}
+section.assuntos1 > h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 82px;
+    color: rgb(22, 71, 50);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 50px;
+    background-color: #84E1AD;
+    width: 300px;
+}
+p {
+    padding-top: 45px;
+}
+nav > p {
+    padding: 59px 0px 11px 20px;
+    margin-left: 10px;
+}
+nav > p > a {
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+b {
+    padding-left: 25px;
+}
+.negrito1 {
+    color:rgb(22, 71, 50);
+    font-weight: bold;
+}
+iframe {
+    border-radius: 10px;
+    border: 10px #184a2e solid;
+    width: 799px;
+    margin-left: 13px;
+}
+#h2footer {
+    background-color: #184a2e;
+    padding-left: 13px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 56px;
+    color: white;
+}
+/* Imagens */
+#irina {
+    margin-left: 13px;
+    border: 10px solid #184a2e;
+    border-radius: 10px;
+}
+#bugdroid {
+    margin: 10px 10px 10px 10px;
+}
+footer {
+    width: 800px;
+    height: 562px;
+    margin: 5px;
+    background-color: #84E1AD; 
+    border-radius: 10px;
+}
+footer > p {
+    padding-left: 15px;
+}
+/* espaçamento tag <m>*/
+
+.cupkake {
+    padding-left: 80px;
+}
+.Eclair{
+    padding-left: 80px;
+}
+.Froyo {
+    padding-left: 80px;
+}
+.Gingerbread {
+    padding-left: 80px;
+}
+.Honeycomb {
+    padding-left: 80px;
+}
+.Ice {
+    padding-left: 80px;
+}
+/* espaçamento tag <n>*/
+
+.JellyBean {
+    padding-left: 390px;
+}
+.Lolipop {
+    padding-left: 412px;
+}
+.Marshmallow {
+    padding-left: 412px;
+}
+.Nougat {
+    padding-left: 364px;
+}
+.Oreo {
+    padding-left: 370px;
+}
+.Pie {
+    padding-left: 309px;
+}
+.negrito2 {
+    color:rgb(22, 71, 50);
+    font-weight: bold;
+    text-decoration: none;
+}
