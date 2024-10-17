@@ -14,25 +14,46 @@ background-size: contain;
  background-size: cover;
  .Cobrir a tela intera (picota a img)
 
- melhor opção
+        MELHOR OPÇÃO
 
+background-attachment: fixed;
+deixará o background-image fixo (sem rolagem)
+
+background-size: cover;
+deixará o site responsivo a imagem sem cortalás
+
+
+exemplo final
+
+background: #000 url('imagem.jpg') center top/cover no-repeat fixed;
 */
 
 
 
         body {
-            height: 100vh;
+            /* height: 100vh;
             background-color: black;
             background-image: url(img/wallpaper002.jpg);
-             background-position: center center; 
-             background-repeat: repeat;
-             background-size: cover;
-             margin-top: 20px;
-             padding-bottom: 20px;
+            background-position: center center; 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+             /* 
+
+
+             ===== ShortHand - Backgrounds =====
+
+             1- color
+             2- image
+             3- repeat
+             4- [size]
+             5- attachment
+              */
+              background: black url('img/wallpaper002.jpg') center center/cover no-repeat fixed;
         }
         main {
             padding: 10px;
-            width: 400px;
+            max-width: 700px;
             margin: auto;
             border: 1px solid darkblue;
             background-color: white;
