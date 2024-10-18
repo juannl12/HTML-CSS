@@ -1,4 +1,12 @@
-a:hover {
-    border:30px solid black;
-    border-radius: 50px;
+background
+a {
+    border: 12px solid yellow;
+    transition: 0.6s;
+    border-radius: 15px;
 }
+
+img:hover {
+    border: 12px solid yellow;
+    transition: 0.6s;
+}
+
